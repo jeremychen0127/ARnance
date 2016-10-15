@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+</head>
+<body>
+
+<h2>JSON Object Creation in JavaScript</h2>
+
+<p id="demo"></p>
+
+<script>
+var rawJsonFile = "aapl-raw.json";
+$.getJSON( "aapl-raw.json", function( data ) {
+  var items = [];
+  for (var i = rawJsonFile.length - 1; i >= 0; i--) {
+  	items.push(rawJsonFile[i].value);
+  }
+ 
+  $( "<ul/>", {
+    "class": "my-new-list",
+    html: items.join( "" )
+  }).appendTo( "body" );
+});
+var text = '{"name":"John Johnson","street":"Oslo West 16","phone":"555 1234567"}';
+
+var obj = JSON.parse(text);
+
+document.getElementById("demo").innerHTML =
+obj.name + "<br>" +
+obj.street + "<br>" +
+obj.phone;
+</script>
+
+</body>
+</html>
