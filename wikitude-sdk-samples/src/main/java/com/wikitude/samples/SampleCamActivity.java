@@ -2,6 +2,7 @@ package com.wikitude.samples;
 
 import java.io.File;
 import java.io.FileOutputStream;
+import java.util.ArrayList;
 
 import android.Manifest;
 import android.content.Intent;
@@ -11,6 +12,7 @@ import android.hardware.SensorManager;
 import android.location.LocationListener;
 import android.net.Uri;
 import android.os.Environment;
+import android.speech.RecognizerIntent;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.widget.Toast;
@@ -109,9 +111,35 @@ public class SampleCamActivity extends AbstractArchitectCamActivity {
 						}
 					});
 				}
+
+				else if ("voice".equalsIgnoreCase(invokedUri.getHost())) {
+					startVoiceRecognitionActivity();
+				}
 				return true;
 			}
 		};
+	}
+
+	public static final int VOICE_RECOGNITION_REQUEST_CODE = 1234;
+
+	public void startVoiceRecognitionActivity() {
+		Intent intent = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
+		intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL,
+				RecognizerIntent.LANGUAGE_MODEL_FREE_FORM);
+		startActivityForResult(intent, VOICE_RECOGNITION_REQUEST_CODE);
+	}
+
+	@Override
+	public void onActivityResult(int requestCode, int resultCode, Intent data) {
+		if (requestCode == VOICE_RECOGNITION_REQUEST_CODE && resultCode == RESULT_OK) {
+			ArrayList<String> matches = data.getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
+			boolean high = false;
+			if (matches.contains("highlight")) {
+				high = true;
+			}
+			//String matchStr = matches.toString();
+			architectView.callJavascript("updateOverlay(" + high + ");");
+		}
 	}
 
     @Override

@@ -1,15 +1,22 @@
 var World = {
 	loaded: false,
 
-	init: function initFn() {
-		this.createOverlays();
+	init: function initFn(highlight) {
+		this.createOverlays(highlight);
 	},
 
-	createOverlays: function createOverlaysFn() {
+	onVoiceButtonClicked: function onVoiceButtonClickedFn() {
+	    var architectSdkUrl = "architectsdk://voice";
+	    document.location = architectSdkUrl;
+	},
 
-		this.tracker = new AR.ClientTracker("assets/tracker.wtc", {
-			onLoaded: this.worldLoaded
-		});
+	createOverlays: function createOverlaysFn(highlight) {
+
+        if (!highlight) {
+            this.tracker = new AR.ClientTracker("assets/tracker.wtc", {
+                onLoaded: this.worldLoaded
+            });
+        }
 
 		var apple_price_video = new AR.VideoDrawable("assets/apple_price.mp4", 0.40, {
             offsetY: -0.6,
@@ -36,16 +43,6 @@ var World = {
             allowDocumentLocationChanges: false,
             onDocumentLocationChanged: function onDocumentLocationChangedFn(uri) {
                 AR.context.openInBrowser(uri);
-            }
-        });
-
-        var apple = new AR.Trackable2DObject(this.tracker, "apple", {
-            drawables: {
-                cam: [apple_price_video, apple_head, apple_highlight_video]
-            },
-            onEnterFieldOfVision: function onEnterFieldOfVisionFn() {
-                apple_price_video.play(-1);
-                apple_highlight_video.play(-1);
             }
         });
 
@@ -77,16 +74,6 @@ var World = {
             }
         });
 
-        var yelp = new AR.Trackable2DObject(this.tracker, "yelp", {
-            drawables: {
-                cam: [yelp_price_video, yelp_head, yelp_highlight_video]
-            },
-            onEnterFieldOfVision: function onEnterFieldOfVisionFn() {
-                yelp_price_video.play(-1);
-                yelp_highlight_video.play(-1);
-            }
-        });
-
         var walmart_price_video = new AR.VideoDrawable("assets/walmart_price.mp4", 0.40, {
             offsetY: -0.6,
             scale: 1.2
@@ -112,16 +99,6 @@ var World = {
             allowDocumentLocationChanges: false,
             onDocumentLocationChanged: function onDocumentLocationChangedFn(uri) {
                 AR.context.openInBrowser(uri);
-            }
-        });
-
-        var walmart = new AR.Trackable2DObject(this.tracker, "walmart", {
-            drawables: {
-                cam: [walmart_price_video, walmart_head, walmart_highlight_video]
-            },
-            onEnterFieldOfVision: function onEnterFieldOfVisionFn() {
-                walmart_price_video.play(-1);
-                walmart_highlight_video.play(-1);
             }
         });
 
@@ -153,16 +130,6 @@ var World = {
             }
         });
 
-        var google = new AR.Trackable2DObject(this.tracker, "google", {
-            drawables: {
-                cam: [google_price_video, google_head, google_highlight_video]
-            },
-            onEnterFieldOfVision: function onEnterFieldOfVisionFn() {
-                google_price_video.play(-1);
-                google_highlight_video.play(-1);
-            }
-        });
-
         var ae_price_video = new AR.VideoDrawable("assets/ae_price.mp4", 0.40, {
             offsetY: -0.6,
             scale: 1.2
@@ -191,16 +158,90 @@ var World = {
             }
         });
 
+        var apple_drawables = [];
+        var yelp_drawables = [];
+        var walmart_drawables = [];
+        var google_drawables = [];
+        var ae_drawables = [];
+
+        if (highlight) {
+            apple_drawables = [apple_price_video, apple_head, apple_highlight_video];
+            yelp_drawables = [yelp_price_video, yelp_head, yelp_highlight_video];
+            walmart_drawables = [walmart_price_video, walmart_head, walmart_highlight_video];
+            google_drawables = [google_price_video, google_head, google_highlight_video];
+            ae_drawables = [ae_price_video, ae_head, ae_highlight_video];
+        } else {
+            apple_drawables = [apple_price_video, apple_head];
+            yelp_drawables = [yelp_price_video, yelp_head];
+            walmart_drawables = [walmart_price_video, walmart_head];
+            google_drawables = [google_price_video, google_head];
+            ae_drawables = [ae_price_video, ae_head];
+        }
+
+        var apple = new AR.Trackable2DObject(this.tracker, "apple", {
+            drawables: {
+                cam: apple_drawables
+            },
+            onEnterFieldOfVision: function onEnterFieldOfVisionFn() {
+                apple_price_video.play(-1);
+                if (highlight) {
+                    apple_highlight_video.play(-1);
+                }
+            }
+        });
+
+        var yelp = new AR.Trackable2DObject(this.tracker, "yelp", {
+            drawables: {
+                cam: yelp_drawables
+            },
+            onEnterFieldOfVision: function onEnterFieldOfVisionFn() {
+                yelp_price_video.play(-1);
+                if (highlight) {
+                    yelp_highlight_video.play(-1);
+                }
+            }
+        });
+
+        var walmart = new AR.Trackable2DObject(this.tracker, "walmart", {
+            drawables: {
+                cam: walmart_drawables
+            },
+            onEnterFieldOfVision: function onEnterFieldOfVisionFn() {
+                walmart_price_video.play(-1);
+                if (highlight) {
+                    walmart_highlight_video.play(-1);
+                }
+            }
+        });
+
+        var google = new AR.Trackable2DObject(this.tracker, "google", {
+            drawables: {
+                cam: google_drawables
+            },
+            onEnterFieldOfVision: function onEnterFieldOfVisionFn() {
+                google_price_video.play(-1);
+                if (highlight) {
+                    google_highlight_video.play(-1);
+                }
+            }
+        });
+
         var ae = new AR.Trackable2DObject(this.tracker, "ae", {
             drawables: {
-                cam: [ae_price_video, ae_head, ae_highlight_video]
+                cam: ae_drawables
             },
             onEnterFieldOfVision: function onEnterFieldOfVisionFn() {
                 ae_price_video.play(-1);
-                ae_highlight_video.play(-1);
+                if (highlight) {
+                    ae_highlight_video.play(-1);
+                }
             }
         });
 	}
 };
 
-World.init();
+World.init(false);
+
+function updateOverlay(matches) {
+    World.init(matches);
+};
