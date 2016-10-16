@@ -16,6 +16,12 @@ var World = {
             scale: 1.2
         });
 
+        var apple_highlight_video = new AR.VideoDrawable("assets/apple_highlight.mp4", 0.40, {
+            offsetX: -1,
+            offsetY: 0.05,
+            scale: 2
+        });
+
         var apple_head = new AR.HtmlDrawable({
             uri: "assets/apple_head.html"
         }, 0.25, {
@@ -35,16 +41,23 @@ var World = {
 
         var apple = new AR.Trackable2DObject(this.tracker, "apple", {
             drawables: {
-                cam: [apple_price_video, apple_head]
+                cam: [apple_price_video, apple_head, apple_highlight_video]
             },
             onEnterFieldOfVision: function onEnterFieldOfVisionFn() {
                 apple_price_video.play(-1);
+                apple_highlight_video.play(-1);
             }
         });
 
         var yelp_price_video = new AR.VideoDrawable("assets/yelp_price.mp4", 0.40, {
             offsetY: -0.6,
             scale: 1.2
+        });
+
+        var yelp_highlight_video = new AR.VideoDrawable("assets/yelp_highlight.mp4", 0.40, {
+            offsetX: -1,
+            offsetY: 0.05,
+            scale: 2
         });
 
         var yelp_head = new AR.HtmlDrawable({
@@ -66,16 +79,23 @@ var World = {
 
         var yelp = new AR.Trackable2DObject(this.tracker, "yelp", {
             drawables: {
-                cam: [yelp_price_video, yelp_head]
+                cam: [yelp_price_video, yelp_head, yelp_highlight_video]
             },
             onEnterFieldOfVision: function onEnterFieldOfVisionFn() {
                 yelp_price_video.play(-1);
+                yelp_highlight_video.play(-1);
             }
         });
 
         var walmart_price_video = new AR.VideoDrawable("assets/walmart_price.mp4", 0.40, {
             offsetY: -0.6,
             scale: 1.2
+        });
+
+        var walmart_highlight_video = new AR.VideoDrawable("assets/walmart_highlight.mp4", 0.40, {
+            offsetX: -1,
+            offsetY: 0.05,
+            scale: 2
         });
 
         var walmart_head = new AR.HtmlDrawable({
@@ -97,16 +117,23 @@ var World = {
 
         var walmart = new AR.Trackable2DObject(this.tracker, "walmart", {
             drawables: {
-                cam: [walmart_price_video, walmart_head]
+                cam: [walmart_price_video, walmart_head, walmart_highlight_video]
             },
             onEnterFieldOfVision: function onEnterFieldOfVisionFn() {
                 walmart_price_video.play(-1);
+                walmart_highlight_video.play(-1);
             }
         });
 
         var google_price_video = new AR.VideoDrawable("assets/google_price.mp4", 0.40, {
             offsetY: -0.6,
             scale: 1.2
+        });
+
+        var google_highlight_video = new AR.VideoDrawable("assets/google_highlight.mp4", 0.40, {
+            offsetX: -1,
+            offsetY: 0.05,
+            scale: 2
         });
 
         var google_head = new AR.HtmlDrawable({
@@ -128,16 +155,23 @@ var World = {
 
         var google = new AR.Trackable2DObject(this.tracker, "google", {
             drawables: {
-                cam: [google_price_video, google_head]
+                cam: [google_price_video, google_head, google_highlight_video]
             },
             onEnterFieldOfVision: function onEnterFieldOfVisionFn() {
                 google_price_video.play(-1);
+                google_highlight_video.play(-1);
             }
         });
 
         var ae_price_video = new AR.VideoDrawable("assets/ae_price.mp4", 0.40, {
             offsetY: -0.6,
             scale: 1.2
+        });
+
+        var ae_highlight_video = new AR.VideoDrawable("assets/ae_highlight.mp4", 0.40, {
+            offsetX: -1,
+            offsetY: 0.05,
+            scale: 2
         });
 
         var ae_head = new AR.HtmlDrawable({
@@ -159,10 +193,11 @@ var World = {
 
         var ae = new AR.Trackable2DObject(this.tracker, "ae", {
             drawables: {
-                cam: [ae_price_video, ae_head]
+                cam: [ae_price_video, ae_head, ae_highlight_video]
             },
             onEnterFieldOfVision: function onEnterFieldOfVisionFn() {
                 ae_price_video.play(-1);
+                ae_highlight_video.play(-1);
             }
         });
 	}
