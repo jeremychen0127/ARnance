@@ -2,49 +2,67 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="/Users/jeremychen/Downloads/WikitudeSDK_Android_5-3-0_2016-09-13_14-19-36/Examples/SDKExamples/wikitude-sdk-samples/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/libs/internal_impl-24.1.1.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Jonathan\code\hackwestern3\ARnance\wikitude-sdk-samples\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\libs\internal_impl-24.1.1.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.1"
         sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
-        <dex dex="/Users/jeremychen/Downloads/WikitudeSDK_Android_5-3-0_2016-09-13_14-19-36/Examples/SDKExamples/wikitude-sdk-samples/build/intermediates/pre-dexed/debug/internal_impl-24.1.1_741dc24a62aeee60ca98edaa4b7eda64289774b4.jar" />
+        <dex dex="C:\Users\Jonathan\code\hackwestern3\ARnance\wikitude-sdk-samples\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.1.1_fcfee8f56ab59e1a1743acd8162b16848d8548fd\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/jeremychen/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.2.0/e019d15a13a9786f881141d2df6654b8510bce8b/core-3.2.0.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Jonathan\code\hackwestern3\ARnance\wikitude-sdk-samples\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.1"
-        sha1="e019d15a13a9786f881141d2df6654b8510bce8b">
-        <dex dex="/Users/jeremychen/Downloads/WikitudeSDK_Android_5-3-0_2016-09-13_14-19-36/Examples/SDKExamples/wikitude-sdk-samples/build/intermediates/pre-dexed/debug/core-3.2.0_6a29c8c0ecf4ab19ff9a8d594e6974de123af72f.jar" />
+        sha1="60dad87d7ff32b765f1a69934498f766d54eed7b">
+        <dex dex="C:\Users\Jonathan\code\hackwestern3\ARnance\wikitude-sdk-samples\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_cdb8c0917a0c233993366cc3fcd64a74b1e6b2c9\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/jeremychen/Downloads/WikitudeSDK_Android_5-3-0_2016-09-13_14-19-36/Examples/SDKExamples/wikitude-sdk-samples/build/intermediates/exploded-aar/wikitudesdk/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="943826ba38df25fea857508300b31bd1f20c9301">
-        <dex dex="/Users/jeremychen/Downloads/WikitudeSDK_Android_5-3-0_2016-09-13_14-19-36/Examples/SDKExamples/wikitude-sdk-samples/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-wikitudesdk_99893425a45e86d5247ebff764648b669379f389.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jeremychen/Downloads/WikitudeSDK_Android_5-3-0_2016-09-13_14-19-36/Examples/SDKExamples/wikitude-sdk-samples/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Jonathan\code\hackwestern3\ARnance\wikitude-sdk-samples\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.1"
         sha1="6d7d803871e3203465f71a163e7af104f807b446">
-        <dex dex="/Users/jeremychen/Downloads/WikitudeSDK_Android_5-3-0_2016-09-13_14-19-36/Examples/SDKExamples/wikitude-sdk-samples/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.1.1_91d048f20cea289a8ed3a72b24a8bd1f4ec6d2a8.jar" />
+        <dex dex="C:\Users\Jonathan\code\hackwestern3\ARnance\wikitude-sdk-samples\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.1.1_17904888028e7a8f01825e4b535ca60e7359a729\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/jeremychen/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.1.1/support-annotations-24.1.1.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Jonathan\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.1.1\support-annotations-24.1.1.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.1"
         sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
-        <dex dex="/Users/jeremychen/Downloads/WikitudeSDK_Android_5-3-0_2016-09-13_14-19-36/Examples/SDKExamples/wikitude-sdk-samples/build/intermediates/pre-dexed/debug/support-annotations-24.1.1_e66f1124803d4a1748892a031a4bfbb20f34de1d.jar" />
+        <dex dex="C:\Users\Jonathan\code\hackwestern3\ARnance\wikitude-sdk-samples\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.1.1_400bb13bd8a20c63f736e481ade3b6d5b7ac4871\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jonathan\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.0\e019d15a13a9786f881141d2df6654b8510bce8b\core-3.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e019d15a13a9786f881141d2df6654b8510bce8b">
+        <dex dex="C:\Users\Jonathan\code\hackwestern3\ARnance\wikitude-sdk-samples\build\intermediates\transforms\dex\debug\folders\1000\10\core-3.2.0_397a655c5e1294a1cf1f9e65b0be055f91784031\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jonathan\code\hackwestern3\ARnance\wikitude-sdk-samples\build\intermediates\exploded-aar\wikitudesdk\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="943826ba38df25fea857508300b31bd1f20c9301">
+        <dex dex="C:\Users\Jonathan\code\hackwestern3\ARnance\wikitude-sdk-samples\build\intermediates\transforms\dex\debug\folders\1000\10\intermediates-exploded-aar-wikitudesdk_98dfff9b6eeaf76ae467ab05141958e9d4cbcd3e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jonathan\code\hackwestern3\ARnance\wikitude-sdk-samples\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d107f2d1c399b433b865d72af1c99e86575c9f64">
+        <dex dex="C:\Users\Jonathan\code\hackwestern3\ARnance\wikitude-sdk-samples\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_f2e55d3f80f49ed152735cef52243f4e38e5face\classes.dex" />
     </item>
 
 </items>

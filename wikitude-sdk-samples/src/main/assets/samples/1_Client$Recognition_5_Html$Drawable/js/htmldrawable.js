@@ -76,6 +76,14 @@ var World = {
             }
         });
 	}
+
+/*
+	onVoiceButtonClicked: function onVoiceButtonClickedFn() {}
+	    //var architectSdkUrl = "architectsdk://markerselected?id=" + encodeURIComponent(currentMarker.poiData.id) + "&title=" + encodeURIComponent(currentMarker.poiData.title) + "&description=" + encodeURIComponent(currentMarker.poiData.description);
+	    var architectSdkUrl = "architectsdk://voice";
+	    document.location = architectSdkUrl;
+	}
+	*/
 };
 
 World.init();

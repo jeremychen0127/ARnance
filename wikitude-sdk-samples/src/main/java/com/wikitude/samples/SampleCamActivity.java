@@ -2,6 +2,7 @@ package com.wikitude.samples;
 
 import java.io.File;
 import java.io.FileOutputStream;
+import java.util.ArrayList;
 
 import android.Manifest;
 import android.content.Intent;
@@ -11,6 +12,7 @@ import android.hardware.SensorManager;
 import android.location.LocationListener;
 import android.net.Uri;
 import android.os.Environment;
+import android.speech.RecognizerIntent;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.widget.Toast;
@@ -109,12 +111,38 @@ public class SampleCamActivity extends AbstractArchitectCamActivity {
 						}
 					});
 				}
+
+				else if ("voice".equalsIgnoreCase(invokedUri.getHost())) {
+					// do something
+					startVoiceRecognitionActivity();
+				}
 				return true;
 			}
 		};
 	}
 
-    @Override
+	public static final int VOICE_RECOGNITION_REQUEST_CODE = 1234;
+
+	public void startVoiceRecognitionActivity() {
+		Intent intent = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
+		intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL,
+				RecognizerIntent.LANGUAGE_MODEL_FREE_FORM);
+		intent.putExtra(RecognizerIntent.EXTRA_PROMPT, "test string please ignore");
+		startActivityForResult(intent, VOICE_RECOGNITION_REQUEST_CODE);
+	}
+
+	@Override
+	public void onActivityResult(int requestCode, int resultCode, Intent data) {
+		if (requestCode == VOICE_RECOGNITION_REQUEST_CODE && resultCode == RESULT_OK) {
+			ArrayList<String> matches = data.getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
+			//mList.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, matches));
+			String s = matches.toString();
+			//architectView.callJavascript(" updateVoiceMatches(" + s + ");");
+			System.out.println("WT?FWFAFA?DAFA");
+		}
+	}
+
+	@Override
     public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
         switch (requestCode) {
             case WIKITUDE_PERMISSIONS_REQUEST_EXTERNAL_STORAGE: {
