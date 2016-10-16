@@ -7,25 +7,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a3e38cd-4b53-481b-96ed-28a31d457987" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/assets/debug/samples/1_Client$Recognition_5_Html$Drawable/assets/apple_price.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/1_Client$Recognition_5_Html$Drawable/assets/apple_price.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_wikitude-sdk-samples_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_wikitude-sdk-samples_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_wikitude-sdk-samples_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_wikitude-sdk-samples_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_wikitude-sdk-samples_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_wikitude-sdk-samples_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/classes/debug/com/wikitude/samples/AbstractArchitectCamActivity$1.class" afterPath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/classes/debug/com/wikitude/samples/AbstractArchitectCamActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/classes/debug/com/wikitude/samples/AbstractArchitectCamActivity$2$1.class" afterPath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/classes/debug/com/wikitude/samples/AbstractArchitectCamActivity$2$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/classes/debug/com/wikitude/samples/AbstractArchitectCamActivity$2.class" afterPath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/classes/debug/com/wikitude/samples/AbstractArchitectCamActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/classes/debug/com/wikitude/samples/AbstractArchitectCamActivity.class" afterPath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/classes/debug/com/wikitude/samples/AbstractArchitectCamActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/pre-dexed/debug/debug_f9618d770eb99fcf70b6ce66f15c038a4dff9c3e.jar" afterPath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/pre-dexed/debug/debug_f9618d770eb99fcf70b6ce66f15c038a4dff9c3e.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/outputs/apk/wikitude-sdk-samples-debug.apk" afterPath="$PROJECT_DIR$/wikitude-sdk-samples/build/outputs/apk/wikitude-sdk-samples-debug.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/assets/debug/samples/1_Client$Recognition_5_Html$Drawable/js/htmldrawable.js" afterPath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/assets/debug/samples/1_Client$Recognition_5_Html$Drawable/js/htmldrawable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterPath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/incremental/mergeDebugAssets/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikitude-sdk-samples/src/main/java/com/wikitude/samples/AbstractArchitectCamActivity.java" afterPath="$PROJECT_DIR$/wikitude-sdk-samples/src/main/java/com/wikitude/samples/AbstractArchitectCamActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/1_Client$Recognition_5_Html$Drawable/js/htmldrawable.js" afterPath="$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/1_Client$Recognition_5_Html$Drawable/js/htmldrawable.js" />
     </list>
     <ignored path="SDKExamples.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,11 +45,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="htmldrawable.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="htmldrawable.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/1_Client$Recognition_5_Html$Drawable/js/htmldrawable.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
+            <state relative-caret-position="555">
+              <caret line="161" column="45" selection-start-line="161" selection-start-column="45" selection-end-line="161" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -66,16 +60,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
               <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractArchitectCamActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/java/com/wikitude/samples/AbstractArchitectCamActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="81" column="38" selection-start-line="81" selection-start-column="38" selection-end-line="81" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -109,16 +93,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
               <caret line="128" column="13" selection-start-line="128" selection-start-column="13" selection-end-line="128" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="apple_price.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/1_Client$Recognition_5_Html$Drawable/assets/apple_price.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="65" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -1671,8 +1645,13 @@
         <option value="$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/1_Client$Recognition_5_Html$Drawable/assets/weather.html" />
         <option value="$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/1_Client$Recognition_5_Html$Drawable/index.html" />
         <option value="$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/1_Client$Recognition_5_Html$Drawable/assets/apple_price.html" />
-        <option value="$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/1_Client$Recognition_5_Html$Drawable/js/htmldrawable.js" />
         <option value="$PROJECT_DIR$/wikitude-sdk-samples/src/main/java/com/wikitude/samples/AbstractArchitectCamActivity.java" />
+        <option value="$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/1_Client$Recognition_5_Html$Drawable/assets/yelp_head.html" />
+        <option value="$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/1_Client$Recognition_5_Html$Drawable/assets/apple_head.html" />
+        <option value="$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/1_Client$Recognition_5_Html$Drawable/assets/walmart_head.html" />
+        <option value="$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/1_Client$Recognition_5_Html$Drawable/assets/google_head.html" />
+        <option value="$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/1_Client$Recognition_5_Html$Drawable/js/htmldrawable.js" />
+        <option value="$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/1_Client$Recognition_5_Html$Drawable/assets/ae_head.html" />
       </list>
     </option>
   </component>
@@ -1874,7 +1853,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1901,6 +1880,90 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="samples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1_Client$Recognition_5_Html$Drawable" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SDKExamples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SDKExamples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wikitude-sdk-samples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="samples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1_Client$Recognition_5_Html$Drawable" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SDKExamples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SDKExamples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wikitude-sdk-samples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="samples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1_Client$Recognition_5_Html$Drawable" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -2296,62 +2359,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/1_Client$Recognition_5_Html$Drawable/js/apple_price.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="16" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="426104" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/1_Client$Recognition_5_Html$Drawable/js/htmldrawable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="85" column="36" selection-start-line="85" selection-start-column="36" selection-end-line="85" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/1_Client$Recognition_5_Html$Drawable/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/1_Client$Recognition_5_Html$Drawable/assets/apple_price.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/1_Client$Recognition_5_Html$Drawable/js/apple_price.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="16" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="426104" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/java/com/wikitude/samples/plugin/SamplePlugin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -2463,11 +2470,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/1_Client$Recognition_5_Html$Drawable/assets/apple.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/1_Client$Recognition_5_Html$Drawable/assets/imageOne.png" />
     <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/1_Client$Recognition_5_Html$Drawable/assets/surfer.png" />
     <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/1_Client$Recognition_5_Html$Drawable/assets/bike.png" />
@@ -2535,22 +2537,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/1_Client$Recognition_5_Html$Drawable/js/htmldrawable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/1_Client$Recognition_5_Html$Drawable/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -2666,10 +2652,81 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/1_Client$Recognition_5_Html$Drawable/assets/ae.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/1_Client$Recognition_5_Html$Drawable/assets/apple.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/java/com/wikitude/samples/AbstractArchitectCamActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="81" column="38" selection-start-line="81" selection-start-column="38" selection-end-line="81" selection-end-column="38" />
+        <state relative-caret-position="840">
+          <caret line="81" column="8" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/1_Client$Recognition_5_Html$Drawable/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/1_Client$Recognition_5_Html$Drawable/assets/apple_price.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/1_Client$Recognition_5_Html$Drawable/assets/apple_head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="233" column="18" selection-start-line="233" selection-start-column="18" selection-end-line="233" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/1_Client$Recognition_5_Html$Drawable/assets/yelp_head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="93" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/1_Client$Recognition_5_Html$Drawable/assets/google_head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3121">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/1_Client$Recognition_5_Html$Drawable/assets/walmart_head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="93" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/1_Client$Recognition_5_Html$Drawable/assets/ae_head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2625">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/1_Client$Recognition_5_Html$Drawable/js/htmldrawable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="161" column="45" selection-start-line="161" selection-start-column="45" selection-end-line="161" selection-end-column="45" />
           <folding />
         </state>
       </provider>
