@@ -16,6 +16,7 @@ import android.opengl.GLES20;
 import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Window;
 import android.webkit.WebView;
 import android.widget.Toast;
 
@@ -72,6 +73,8 @@ public abstract class AbstractArchitectCamActivity extends Activity implements A
 	@Override
 	public void onCreate( final Bundle savedInstanceState ) {
 		super.onCreate( savedInstanceState );
+
+		this.requestWindowFeature(Window.FEATURE_NO_TITLE);
 
 		/* pressing volume up/down should cause music volume changes */
 		this.setVolumeControlStream( AudioManager.STREAM_MUSIC );
